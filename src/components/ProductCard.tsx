@@ -20,6 +20,8 @@ export interface ProductCardProps {
 
 export const ProductCard = ({ children, product, className, style, onChange, value, initialValues }: ProductCardProps  ) => {
 
+
+  //
   const { counter, increaseBy, maxCount, isMaxCountReached, reset }=  useProduct({ onChange, product, value, initialValues });
 
   return (

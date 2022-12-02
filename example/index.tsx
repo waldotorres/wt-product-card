@@ -6,7 +6,7 @@ import {ProductCard, ProductImage, ProductTitle, ProductButtons} from '../dist/c
 
 const product = {
   id:'1',
-  title:'Coffee-Mug',
+  title:'Coffee-Mug Test',
   //img:'./coffee-mug.png'
 }
 

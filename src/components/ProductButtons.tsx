@@ -1,8 +1,6 @@
-
 import styles from "../styles/styles.module.css";
-import { useCallback, useContext } from 'react';
+import React, { useCallback, useContext } from 'react';
 import { ProductContext } from './ProductCard';
-import * as React from 'react';
 
 
 export interface ProductButtonsProps {
